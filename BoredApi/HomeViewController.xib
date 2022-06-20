@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="BoredApi" customModuleProvider="target">
+            <connections>
+                <outlet property="startButton" destination="EhE-rh-2aX" id="qGf-qn-4uy"/>
+                <outlet property="termsButton" destination="xyz-yj-VUP" id="vvp-Pt-S0Q"/>
+                <outlet property="textParticipants" destination="786-bX-VjI" id="42g-mt-sOl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="center" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="xyz-yj-VUP">
+                    <rect key="frame" x="88" y="532" width="200" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" buttonSize="medium">
+                        <attributedString key="attributedTitle">
+                            <fragment content="Termos e Condições">
+                                <attributes>
+                                    <font key="NSFont" size="15" name="Helvetica"/>
+                                    <integer key="NSUnderline" value="1"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="termsOnClick:" destination="-1" eventType="touchUpInside" id="z1W-jg-A6G"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="252" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="786-bX-VjI">
+                    <rect key="frame" x="34" y="328" width="307" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="textEditingChanged:" destination="-1" eventType="editingChanged" id="ihq-Or-1LD"/>
+                        <outlet property="delegate" destination="i5M-Pr-FkT" id="mCG-qH-0Qx"/>
+                    </connections>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Participantes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOt-ag-Vo1">
+                    <rect key="frame" x="33" y="298" width="154" height="20"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhE-rh-2aX">
+                    <rect key="frame" x="88" y="482" width="199" height="30"/>
+                    <color key="backgroundColor" red="0.2901116312" green="0.50582993030000001" blue="0.94906395669999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="pDI-tA-HA9"/>
+                    </constraints>
+                    <color key="tintColor" red="0.2901116312" green="0.50582993030000001" blue="0.94906395669999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Iniciar"/>
+                    <connections>
+                        <action selector="startButtonOnClick:" destination="-1" eventType="touchUpInside" id="1Wy-sL-Ud6"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXU-yU-7Ne">
+                    <rect key="frame" x="101" y="177" width="173" height="43"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Not Bored">
+                            <attributes>
+                                <color key="NSColor" red="0.1114169136" green="0.57623422150000003" blue="0.91768532989999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <font key="NSFont" size="36" name="AmericanTypewriter-Semibold"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3" colorLabel="IBBuiltInLabel-Gray"/>
+            <color key="backgroundColor" red="0.804897368" green="0.89730644230000001" blue="0.93726164099999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color key="tintColor" red="0.92156857250000002" green="0.92156857250000002" blue="0.92156857250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="786-bX-VjI" secondAttribute="trailing" constant="34" id="0Zr-Bn-NRQ"/>
+                <constraint firstItem="786-bX-VjI" firstAttribute="top" secondItem="hOt-ag-Vo1" secondAttribute="bottom" constant="10" id="6OX-8s-wWa"/>
+                <constraint firstItem="jXU-yU-7Ne" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="101" id="C8Y-JZ-C89"/>
+                <constraint firstItem="xyz-yj-VUP" firstAttribute="top" secondItem="EhE-rh-2aX" secondAttribute="bottom" constant="20" id="Fd8-1M-pWF"/>
+                <constraint firstItem="786-bX-VjI" firstAttribute="top" secondItem="hOt-ag-Vo1" secondAttribute="bottom" constant="10" id="I2g-W3-Jc8"/>
+                <constraint firstItem="jXU-yU-7Ne" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="177" id="IDk-C2-lK0"/>
+                <constraint firstItem="hOt-ag-Vo1" firstAttribute="top" secondItem="jXU-yU-7Ne" secondAttribute="bottom" constant="78" id="JD5-6g-4ex"/>
+                <constraint firstItem="EhE-rh-2aX" firstAttribute="top" secondItem="786-bX-VjI" secondAttribute="bottom" constant="120" id="JSJ-hP-jkx"/>
+                <constraint firstItem="hOt-ag-Vo1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="33" id="KsK-Xg-fYK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="EhE-rh-2aX" secondAttribute="trailing" constant="88" id="RWu-aZ-ae6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jXU-yU-7Ne" secondAttribute="trailing" constant="101" id="cCI-gV-UGE"/>
+                <constraint firstItem="EhE-rh-2aX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="88" id="fcl-sR-JjB"/>
+                <constraint firstItem="xyz-yj-VUP" firstAttribute="top" secondItem="EhE-rh-2aX" secondAttribute="bottom" constant="20" id="gsr-mp-R3m"/>
+                <constraint firstItem="786-bX-VjI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="34" id="rcf-JR-68t"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hOt-ag-Vo1" secondAttribute="trailing" constant="188" id="vM9-n5-jiq"/>
+            </constraints>
+            <point key="canvasLocation" x="-2180" y="-310"/>
+        </view>
+    </objects>
+</document>
