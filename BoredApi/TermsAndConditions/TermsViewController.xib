@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TermsViewController" customModule="BoredApi" customModuleProvider="target">
+            <connections>
+                <outlet property="closeButton" destination="WXn-3a-qQ0" id="tsz-9l-HQs"/>
+                <outlet property="scrollViewTerms" destination="pOW-vH-9m3" id="bUl-sQ-C0F"/>
+                <outlet property="stackViewTerms" destination="ESM-yU-n0F" id="Wqx-dy-s0J"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="pOW-vH-9m3">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ESM-yU-n0F">
+                            <rect key="frame" x="66" y="102" width="282" height="692"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pAH-fx-yYL">
+                                    <rect key="frame" x="0.0" y="0.0" width="282" height="692"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXn-3a-qQ0">
+                                            <rect key="frame" x="225" y="8" width="57" height="40"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="X">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="Helvetica-Bold"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </buttonConfiguration>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.85593527560000005" green="0.95612746479999999" blue="0.99608534569999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="xIf-Ru-oXR"/>
+                    <constraints>
+                        <constraint firstItem="ESM-yU-n0F" firstAttribute="centerX" secondItem="pOW-vH-9m3" secondAttribute="centerX" id="2GE-nI-gTg"/>
+                        <constraint firstItem="xIf-Ru-oXR" firstAttribute="bottom" secondItem="pAH-fx-yYL" secondAttribute="bottom" constant="68" id="2nl-C0-KXU"/>
+                        <constraint firstAttribute="trailing" secondItem="ESM-yU-n0F" secondAttribute="trailing" constant="66" id="KLM-HN-afB"/>
+                        <constraint firstItem="xIf-Ru-oXR" firstAttribute="trailing" secondItem="pAH-fx-yYL" secondAttribute="trailing" constant="66" id="NDc-0X-9H5"/>
+                        <constraint firstItem="pAH-fx-yYL" firstAttribute="top" secondItem="xIf-Ru-oXR" secondAttribute="top" constant="58" id="UH7-qh-OWT"/>
+                        <constraint firstItem="pAH-fx-yYL" firstAttribute="leading" secondItem="xIf-Ru-oXR" secondAttribute="leading" constant="66" id="Vp1-dK-igm"/>
+                        <constraint firstItem="ESM-yU-n0F" firstAttribute="top" secondItem="xIf-Ru-oXR" secondAttribute="top" constant="58" id="beU-aN-deg"/>
+                        <constraint firstAttribute="bottom" secondItem="ESM-yU-n0F" secondAttribute="bottom" constant="152" id="gLw-ZW-aAq"/>
+                        <constraint firstItem="ESM-yU-n0F" firstAttribute="centerY" secondItem="pOW-vH-9m3" secondAttribute="centerY" id="sBd-c6-vBF"/>
+                        <constraint firstItem="ESM-yU-n0F" firstAttribute="leading" secondItem="xIf-Ru-oXR" secondAttribute="leading" constant="66" id="wEa-JB-JwC"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="mTT-P0-69t"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="GGz-74-V23"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.85593527560000005" green="0.95612746479999999" blue="0.99608534569999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <point key="canvasLocation" x="-136.23188405797103" y="94.419642857142847"/>
+        </view>
+    </objects>
+</document>

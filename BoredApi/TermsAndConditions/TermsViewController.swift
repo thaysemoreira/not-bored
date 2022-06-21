@@ -9,12 +9,14 @@ import UIKit
 
 class TermsViewController: UIViewController {
     
+    @IBOutlet weak var scrollViewTerms: UIScrollView!
+    @IBOutlet weak var stackViewTerms: UIStackView!
     @IBOutlet weak var closeButton: UIButton!
+    @IBOutlet weak var termsTextView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
+
     }
     @IBAction func closeAction(_ sender: AnyObject) {
         dismiss(animated: true)

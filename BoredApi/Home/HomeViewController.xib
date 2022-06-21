@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="BoredApi" customModuleProvider="target">
             <connections>
+                <outlet property="participantsLabel" destination="hOt-ag-Vo1" id="ja8-8b-1ca"/>
                 <outlet property="startButton" destination="EhE-rh-2aX" id="qGf-qn-4uy"/>
                 <outlet property="termsButton" destination="xyz-yj-VUP" id="vvp-Pt-S0Q"/>
                 <outlet property="textParticipants" destination="786-bX-VjI" id="42g-mt-sOl"/>
@@ -21,7 +22,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="xyz-yj-VUP">
-                    <rect key="frame" x="88" y="532" width="200" height="35"/>
+                    <rect key="frame" x="87" y="532" width="201" height="35"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                     <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <state key="normal" title="Button"/>
@@ -65,6 +66,7 @@
                     <buttonConfiguration key="configuration" style="filled" title="Iniciar"/>
                     <connections>
                         <action selector="startButtonOnClick:" destination="-1" eventType="touchUpInside" id="1Wy-sL-Ud6"/>
+                        <action selector="startsActivities:" destination="-1" eventType="touchUpInside" id="bXa-8Z-Zxr"/>
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXU-yU-7Ne">
@@ -100,7 +102,7 @@
                 <constraint firstItem="786-bX-VjI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="34" id="rcf-JR-68t"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hOt-ag-Vo1" secondAttribute="trailing" constant="188" id="vM9-n5-jiq"/>
             </constraints>
-            <point key="canvasLocation" x="-2180" y="-310"/>
+            <point key="canvasLocation" x="-2666" y="-311"/>
         </view>
     </objects>
 </document>
