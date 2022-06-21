@@ -10,17 +10,16 @@ import UIKit
 class TermsViewController: UIViewController {
     
     @IBOutlet weak var scrollViewTerms: UIScrollView!
-    @IBOutlet weak var stackViewTerms: UIStackView!
     @IBOutlet weak var closeButton: UIButton!
     @IBOutlet weak var termsTextView: UITextView!
+    @IBOutlet weak var stackViewTerms: UIStackView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
-    @IBAction func closeAction(_ sender: AnyObject) {
+    @IBAction func closeAction(_ sender: UIButton) {
         dismiss(animated: true)
         
     }
-    
 }
