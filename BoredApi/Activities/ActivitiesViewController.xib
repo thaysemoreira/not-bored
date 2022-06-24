@@ -21,11 +21,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="W8K-wQ-uxU">
-                    <rect key="frame" x="0.0" y="164" width="375" height="668"/>
+                    <rect key="frame" x="0.0" y="131" width="375" height="701"/>
                     <color key="backgroundColor" red="0.82868099210000001" green="0.9362307191" blue="0.99216586350000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <color key="tintColor" red="0.85593527560000005" green="0.95612746479999999" blue="0.99608534569999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="W8K-wQ-uxU" secondAttribute="height" multiplier="375:812" constant="66.50246305418716" id="WMp-6v-CXv"/>
+                        <constraint firstAttribute="width" secondItem="W8K-wQ-uxU" secondAttribute="height" multiplier="375:812" constant="51.262315270935972" id="WMp-6v-CXv"/>
                     </constraints>
                     <color key="separatorColor" red="0.07869348675" green="0.52542948720000004" blue="0.85493844750000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -36,7 +36,7 @@
                     </connections>
                 </tableView>
                 <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xTy-0w-6Vg">
-                    <rect key="frame" x="0.0" y="120" width="375" height="44"/>
+                    <rect key="frame" x="0.0" y="87" width="375" height="44"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                     <color key="backgroundColor" red="0.07869348675" green="0.52542948720000004" blue="0.85493844750000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <color key="tintColor" red="0.07869348675" green="0.52542948720000004" blue="0.85493844750000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -96,10 +96,10 @@
             <color key="backgroundColor" red="0.82868099210000001" green="0.9362307191" blue="0.99216586350000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <color key="tintColor" red="0.086681671439999997" green="0.56011372800000003" blue="0.91376453639999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>
-                <constraint firstItem="W8K-wQ-uxU" firstAttribute="top" secondItem="a3k-oi-Jik" secondAttribute="top" constant="164" id="45D-t2-Nhv"/>
+                <constraint firstItem="W8K-wQ-uxU" firstAttribute="top" secondItem="a3k-oi-Jik" secondAttribute="top" constant="131" id="45D-t2-Nhv"/>
                 <constraint firstAttribute="bottom" secondItem="W8K-wQ-uxU" secondAttribute="bottom" constant="-20" id="5IV-Yz-ghR"/>
                 <constraint firstItem="W8K-wQ-uxU" firstAttribute="trailing" secondItem="STS-hu-3o5" secondAttribute="trailing" id="CC5-Va-gzC"/>
-                <constraint firstItem="STS-hu-3o5" firstAttribute="top" secondItem="W8K-wQ-uxU" secondAttribute="top" constant="-120" id="Vby-ZW-mDB"/>
+                <constraint firstItem="STS-hu-3o5" firstAttribute="top" secondItem="W8K-wQ-uxU" secondAttribute="top" constant="-87" id="Vby-ZW-mDB"/>
                 <constraint firstItem="W8K-wQ-uxU" firstAttribute="leading" secondItem="STS-hu-3o5" secondAttribute="leading" id="xBN-pI-rdX"/>
             </constraints>
             <point key="canvasLocation" x="-898.39999999999998" y="-1388.423645320197"/>

@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="693" height="212"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Participantes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ob2-6z-odK">
-                                <rect key="frame" x="0.0" y="0.0" width="685" height="201"/>
+                                <rect key="frame" x="0.0" y="0.0" width="693" height="201"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
