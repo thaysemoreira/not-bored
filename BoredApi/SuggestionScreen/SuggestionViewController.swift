@@ -12,13 +12,6 @@ class SuggestionViewController: UIViewController, UITableViewDelegate, UITableVi
     @IBOutlet weak var activityLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
-    struct Activities :  Codable {
-        let activity: String?
-        let type: String?
-        let participants: Int?
-        let price: Double?
-    }
-    
     var activities: [Activities] = []
     
     override func viewDidLoad() {
