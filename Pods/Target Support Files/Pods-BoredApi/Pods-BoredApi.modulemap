@@ -1,0 +1,6 @@
+framework module Pods_BoredApi {
+  umbrella header "Pods-BoredApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

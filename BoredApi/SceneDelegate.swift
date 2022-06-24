@@ -6,6 +6,15 @@
 //
 
 import UIKit
+import Alamofire
+
+struct ActivityResponse: Codable {
+    
+   /* enum CodingKeys: String, CodingKeys {
+        case activities = "activ
+    }*/
+    let activities: [Activities]
+}
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
@@ -18,7 +27,35 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = HomeViewController()
         window?.makeKeyAndVisible()
         
-}
+         AF.request("http://www.boredapi.com/api/activity?minaccessibility=0&maxaccessibility=0.1")
+              .responseDecodable(of: Activities.self) { data in
+                  switch data.result {
+                  case .success(let activitiesResponse):
+                      print(activitiesResponse)
+                  case .failure(let error):
+                      print(error)
+                  }
+          }
+          
+        
+/*        let url = URL(string: "http://www.boredapi.com/api/activity?minaccessibility=0&maxaccessibility=0.1")!
+        let request = URLRequest(url: url)
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            print(data)
+            print(response)
+            print(error)
+            print(String(data: data!, encoding: .utf8))
+            
+            do{
+                let response = try JSONDecoder().decode(ActivityResponse.self, from: data!)
+                print(response)
+            } catch {
+                print(error)
+            }
+        }
+        task.resume()*/
+    }
+    
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.

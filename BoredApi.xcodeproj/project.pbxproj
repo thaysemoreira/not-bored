@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		677D9F7D2862098500F3FE8E /* ActivitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D9F7C2862098500F3FE8E /* ActivitiesModel.swift */; };
-		677D9F822862134B00F3FE8E /* ActivitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D9F802862134B00F3FE8E /* ActivitiesTableViewCell.swift */; };
-		677D9F832862134B00F3FE8E /* ActivitiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 677D9F812862134B00F3FE8E /* ActivitiesTableViewCell.xib */; };
-		677D9F872862188D00F3FE8E /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D9F862862188D00F3FE8E /* ActivityTableViewController.swift */; };
+		01D0F26CC625CF5DAA419202 /* Pods_BoredApi_BoredApiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B35AEEE0A8F3DEC128F3A26 /* Pods_BoredApi_BoredApiUITests.framework */; };
+		11E46C07695CD70DC45BB1EE /* Pods_BoredApiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6B3A2F0BF4BF720E4B8ECB /* Pods_BoredApiTests.framework */; };
+		677D9F9428627D0600F3FE8E /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D9F9228627D0600F3FE8E /* ActivitiesViewController.swift */; };
+		677D9F9528627D0600F3FE8E /* ActivitiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 677D9F9328627D0600F3FE8E /* ActivitiesViewController.xib */; };
+		677D9F9C2863947500F3FE8E /* ActivitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D9F9A2863947500F3FE8E /* ActivitiesTableViewCell.swift */; };
+		677D9F9D2863947500F3FE8E /* ActivitiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 677D9F9B2863947500F3FE8E /* ActivitiesTableViewCell.xib */; };
+		67C5325A2865C73A00ADCF3F /* suggestions.json in Resources */ = {isa = PBXBuildFile; fileRef = 67C532592865C73A00ADCF3F /* suggestions.json */; };
+		67C532632865D34500ADCF3F /* SuggestionScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C532612865D34500ADCF3F /* SuggestionScreenTableViewCell.swift */; };
+		67C532642865D34500ADCF3F /* SuggestionScreenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67C532622865D34500ADCF3F /* SuggestionScreenTableViewCell.xib */; };
 		67D093EE285D2D7500F54031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D093ED285D2D7500F54031 /* AppDelegate.swift */; };
 		67D093F0285D2D7500F54031 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D093EF285D2D7500F54031 /* SceneDelegate.swift */; };
 		67D093F7285D2D7700F54031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D093F6285D2D7700F54031 /* Assets.xcassets */; };
@@ -22,6 +27,13 @@
 		67D09432285E50F800F54031 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D09430285E50F800F54031 /* HomeViewController.xib */; };
 		67D094412860EF8900F54031 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D0943F2860EF8900F54031 /* TermsViewController.swift */; };
 		67D094422860EF8900F54031 /* TermsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D094402860EF8900F54031 /* TermsViewController.xib */; };
+		67D69F6B2864988C00C1D4F9 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D69F6A2864988C00C1D4F9 /* Activities.swift */; };
+		67D69F802864FDDE00C1D4F9 /* SuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D69F7E2864FDDE00C1D4F9 /* SuggestionViewController.swift */; };
+		67D69F812864FDDE00C1D4F9 /* SuggestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D69F7F2864FDDE00C1D4F9 /* SuggestionViewController.xib */; };
+		67D69F8A286554B000C1D4F9 /* SuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D69F88286554B000C1D4F9 /* SuggestionTableViewCell.swift */; };
+		67D69F8B286554B000C1D4F9 /* SuggestionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D69F89286554B000C1D4F9 /* SuggestionTableViewCell.xib */; };
+		67D69F8D2865608E00C1D4F9 /* SuggestionsActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D69F8C2865608E00C1D4F9 /* SuggestionsActivities.swift */; };
+		796C1BC261C3DC5E3129CC33 /* Pods_BoredApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7E24A346838268A90240F1 /* Pods_BoredApi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +54,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		677D9F7C2862098500F3FE8E /* ActivitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesModel.swift; sourceTree = "<group>"; };
-		677D9F802862134B00F3FE8E /* ActivitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewCell.swift; sourceTree = "<group>"; };
-		677D9F812862134B00F3FE8E /* ActivitiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivitiesTableViewCell.xib; sourceTree = "<group>"; };
-		677D9F862862188D00F3FE8E /* ActivityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
+		0A345A54A6A737AB7969D7B6 /* Pods-BoredApi-BoredApiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredApi-BoredApiUITests.release.xcconfig"; path = "Target Support Files/Pods-BoredApi-BoredApiUITests/Pods-BoredApi-BoredApiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0B35AEEE0A8F3DEC128F3A26 /* Pods_BoredApi_BoredApiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoredApi_BoredApiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D58603653335DA6E548F43 /* Pods-BoredApi-BoredApiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredApi-BoredApiUITests.debug.xcconfig"; path = "Target Support Files/Pods-BoredApi-BoredApiUITests/Pods-BoredApi-BoredApiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A7E24A346838268A90240F1 /* Pods_BoredApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoredApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8B1EA0EEE17BD52EC1FDAD /* Pods-BoredApiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredApiTests.release.xcconfig"; path = "Target Support Files/Pods-BoredApiTests/Pods-BoredApiTests.release.xcconfig"; sourceTree = "<group>"; };
+		677D9F9228627D0600F3FE8E /* ActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		677D9F9328627D0600F3FE8E /* ActivitiesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivitiesViewController.xib; sourceTree = "<group>"; };
+		677D9F9A2863947500F3FE8E /* ActivitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewCell.swift; sourceTree = "<group>"; };
+		677D9F9B2863947500F3FE8E /* ActivitiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivitiesTableViewCell.xib; sourceTree = "<group>"; };
+		67C532592865C73A00ADCF3F /* suggestions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = suggestions.json; sourceTree = "<group>"; };
+		67C532612865D34500ADCF3F /* SuggestionScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionScreenTableViewCell.swift; sourceTree = "<group>"; };
+		67C532622865D34500ADCF3F /* SuggestionScreenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionScreenTableViewCell.xib; sourceTree = "<group>"; };
 		67D093EA285D2D7500F54031 /* BoredApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoredApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D093ED285D2D7500F54031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67D093EF285D2D7500F54031 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +81,16 @@
 		67D09430285E50F800F54031 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		67D0943F2860EF8900F54031 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		67D094402860EF8900F54031 /* TermsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TermsViewController.xib; sourceTree = "<group>"; };
+		67D69F6A2864988C00C1D4F9 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		67D69F7E2864FDDE00C1D4F9 /* SuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionViewController.swift; sourceTree = "<group>"; };
+		67D69F7F2864FDDE00C1D4F9 /* SuggestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionViewController.xib; sourceTree = "<group>"; };
+		67D69F88286554B000C1D4F9 /* SuggestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionTableViewCell.swift; sourceTree = "<group>"; };
+		67D69F89286554B000C1D4F9 /* SuggestionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionTableViewCell.xib; sourceTree = "<group>"; };
+		67D69F8C2865608E00C1D4F9 /* SuggestionsActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsActivities.swift; sourceTree = "<group>"; };
+		73B4DC1B34914756E494C455 /* Pods-BoredApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredApi.release.xcconfig"; path = "Target Support Files/Pods-BoredApi/Pods-BoredApi.release.xcconfig"; sourceTree = "<group>"; };
+		8713262AE17077AE231E52AF /* Pods-BoredApiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredApiTests.debug.xcconfig"; path = "Target Support Files/Pods-BoredApiTests/Pods-BoredApiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC6B3A2F0BF4BF720E4B8ECB /* Pods_BoredApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoredApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4C016B0EC357CD370FCE1C /* Pods-BoredApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredApi.debug.xcconfig"; path = "Target Support Files/Pods-BoredApi/Pods-BoredApi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				796C1BC261C3DC5E3129CC33 /* Pods_BoredApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E46C07695CD70DC45BB1EE /* Pods_BoredApiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D0F26CC625CF5DAA419202 /* Pods_BoredApi_BoredApiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +126,8 @@
 			children = (
 				67D0943F2860EF8900F54031 /* TermsViewController.swift */,
 				67D094402860EF8900F54031 /* TermsViewController.xib */,
+				67C532612865D34500ADCF3F /* SuggestionScreenTableViewCell.swift */,
+				67C532622865D34500ADCF3F /* SuggestionScreenTableViewCell.xib */,
 			);
 			path = TermsAndConditions;
 			sourceTree = "<group>";
@@ -100,10 +135,13 @@
 		677D9F8B28625FC900F3FE8E /* Activities */ = {
 			isa = PBXGroup;
 			children = (
-				677D9F7C2862098500F3FE8E /* ActivitiesModel.swift */,
-				677D9F862862188D00F3FE8E /* ActivityTableViewController.swift */,
-				677D9F802862134B00F3FE8E /* ActivitiesTableViewCell.swift */,
-				677D9F812862134B00F3FE8E /* ActivitiesTableViewCell.xib */,
+				67C532582865C6CA00ADCF3F /* Model */,
+				67D69F6A2864988C00C1D4F9 /* Activities.swift */,
+				677D9F9228627D0600F3FE8E /* ActivitiesViewController.swift */,
+				677D9F9328627D0600F3FE8E /* ActivitiesViewController.xib */,
+				677D9F9A2863947500F3FE8E /* ActivitiesTableViewCell.swift */,
+				677D9F9B2863947500F3FE8E /* ActivitiesTableViewCell.xib */,
+				67D69F8C2865608E00C1D4F9 /* SuggestionsActivities.swift */,
 			);
 			path = Activities;
 			sourceTree = "<group>";
@@ -117,6 +155,14 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		67C532582865C6CA00ADCF3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67C532592865C73A00ADCF3F /* suggestions.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		67D093E1285D2D7500F54031 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +170,8 @@
 				67D09403285D2D7700F54031 /* BoredApiTests */,
 				67D0940D285D2D7700F54031 /* BoredApiUITests */,
 				67D093EB285D2D7500F54031 /* Products */,
+				EB804691975396832F7DF4B9 /* Pods */,
+				B35ED78DDA091DA565578A2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +190,7 @@
 			children = (
 				677D9F8D2862600700F3FE8E /* Home */,
 				677D9F8B28625FC900F3FE8E /* Activities */,
+				67D69F652863E05E00C1D4F9 /* SuggestionScreen */,
 				677D9F8A28625FAF00F3FE8E /* TermsAndConditions */,
 				67D093ED285D2D7500F54031 /* AppDelegate.swift */,
 				67D093EF285D2D7500F54031 /* SceneDelegate.swift */,
@@ -169,6 +218,40 @@
 			path = BoredApiUITests;
 			sourceTree = "<group>";
 		};
+		67D69F652863E05E00C1D4F9 /* SuggestionScreen */ = {
+			isa = PBXGroup;
+			children = (
+				67D69F7E2864FDDE00C1D4F9 /* SuggestionViewController.swift */,
+				67D69F7F2864FDDE00C1D4F9 /* SuggestionViewController.xib */,
+				67D69F88286554B000C1D4F9 /* SuggestionTableViewCell.swift */,
+				67D69F89286554B000C1D4F9 /* SuggestionTableViewCell.xib */,
+			);
+			path = SuggestionScreen;
+			sourceTree = "<group>";
+		};
+		B35ED78DDA091DA565578A2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A7E24A346838268A90240F1 /* Pods_BoredApi.framework */,
+				0B35AEEE0A8F3DEC128F3A26 /* Pods_BoredApi_BoredApiUITests.framework */,
+				CC6B3A2F0BF4BF720E4B8ECB /* Pods_BoredApiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB804691975396832F7DF4B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD4C016B0EC357CD370FCE1C /* Pods-BoredApi.debug.xcconfig */,
+				73B4DC1B34914756E494C455 /* Pods-BoredApi.release.xcconfig */,
+				15D58603653335DA6E548F43 /* Pods-BoredApi-BoredApiUITests.debug.xcconfig */,
+				0A345A54A6A737AB7969D7B6 /* Pods-BoredApi-BoredApiUITests.release.xcconfig */,
+				8713262AE17077AE231E52AF /* Pods-BoredApiTests.debug.xcconfig */,
+				1E8B1EA0EEE17BD52EC1FDAD /* Pods-BoredApiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67D09414285D2D7700F54031 /* Build configuration list for PBXNativeTarget "BoredApi" */;
 			buildPhases = (
+				E8EF3454562FF66D62B6DBE9 /* [CP] Check Pods Manifest.lock */,
 				67D093E6285D2D7500F54031 /* Sources */,
 				67D093E7285D2D7500F54031 /* Frameworks */,
 				67D093E8285D2D7500F54031 /* Resources */,
+				17885766C902F99D4C92BF68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67D09417285D2D7700F54031 /* Build configuration list for PBXNativeTarget "BoredApiTests" */;
 			buildPhases = (
+				EA83EE0854E97F4A1BC64C8B /* [CP] Check Pods Manifest.lock */,
 				67D093FC285D2D7700F54031 /* Sources */,
 				67D093FD285D2D7700F54031 /* Frameworks */,
 				67D093FE285D2D7700F54031 /* Resources */,
@@ -211,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67D0941A285D2D7700F54031 /* Build configuration list for PBXNativeTarget "BoredApiUITests" */;
 			buildPhases = (
+				7F78FB7EBC44888DF5E395F1 /* [CP] Check Pods Manifest.lock */,
 				67D09406285D2D7700F54031 /* Sources */,
 				67D09407285D2D7700F54031 /* Frameworks */,
 				67D09408285D2D7700F54031 /* Resources */,
+				E04639EFEE35D337E5285E09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -273,11 +361,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677D9F9D2863947500F3FE8E /* ActivitiesTableViewCell.xib in Resources */,
+				677D9F9528627D0600F3FE8E /* ActivitiesViewController.xib in Resources */,
 				67D093FA285D2D7700F54031 /* LaunchScreen.storyboard in Resources */,
 				67D093F7285D2D7700F54031 /* Assets.xcassets in Resources */,
+				67D69F812864FDDE00C1D4F9 /* SuggestionViewController.xib in Resources */,
+				67C5325A2865C73A00ADCF3F /* suggestions.json in Resources */,
 				67D094422860EF8900F54031 /* TermsViewController.xib in Resources */,
+				67D69F8B286554B000C1D4F9 /* SuggestionTableViewCell.xib in Resources */,
 				67D09432285E50F800F54031 /* HomeViewController.xib in Resources */,
-				677D9F832862134B00F3FE8E /* ActivitiesTableViewCell.xib in Resources */,
+				67C532642865D34500ADCF3F /* SuggestionScreenTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,17 +390,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17885766C902F99D4C92BF68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoredApi/Pods-BoredApi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoredApi/Pods-BoredApi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoredApi/Pods-BoredApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F78FB7EBC44888DF5E395F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoredApi-BoredApiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E04639EFEE35D337E5285E09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoredApi-BoredApiUITests/Pods-BoredApi-BoredApiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoredApi-BoredApiUITests/Pods-BoredApi-BoredApiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoredApi-BoredApiUITests/Pods-BoredApi-BoredApiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8EF3454562FF66D62B6DBE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoredApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA83EE0854E97F4A1BC64C8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoredApiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67D093E6285D2D7500F54031 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				677D9F7D2862098500F3FE8E /* ActivitiesModel.swift in Sources */,
+				67D69F8D2865608E00C1D4F9 /* SuggestionsActivities.swift in Sources */,
+				67C532632865D34500ADCF3F /* SuggestionScreenTableViewCell.swift in Sources */,
 				67D093EE285D2D7500F54031 /* AppDelegate.swift in Sources */,
 				67D093F0285D2D7500F54031 /* SceneDelegate.swift in Sources */,
+				67D69F802864FDDE00C1D4F9 /* SuggestionViewController.swift in Sources */,
+				677D9F9428627D0600F3FE8E /* ActivitiesViewController.swift in Sources */,
 				67D094412860EF8900F54031 /* TermsViewController.swift in Sources */,
-				677D9F822862134B00F3FE8E /* ActivitiesTableViewCell.swift in Sources */,
-				677D9F872862188D00F3FE8E /* ActivityTableViewController.swift in Sources */,
+				67D69F6B2864988C00C1D4F9 /* Activities.swift in Sources */,
+				67D69F8A286554B000C1D4F9 /* SuggestionTableViewCell.swift in Sources */,
+				677D9F9C2863947500F3FE8E /* ActivitiesTableViewCell.swift in Sources */,
 				67D09431285E50F800F54031 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +672,7 @@
 		};
 		67D09415285D2D7700F54031 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4C016B0EC357CD370FCE1C /* Pods-BoredApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -499,6 +700,7 @@
 		};
 		67D09416285D2D7700F54031 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B4DC1B34914756E494C455 /* Pods-BoredApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -526,6 +728,7 @@
 		};
 		67D09418285D2D7700F54031 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8713262AE17077AE231E52AF /* Pods-BoredApiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -546,6 +749,7 @@
 		};
 		67D09419285D2D7700F54031 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8B1EA0EEE17BD52EC1FDAD /* Pods-BoredApiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -566,6 +770,7 @@
 		};
 		67D0941B285D2D7700F54031 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D58603653335DA6E548F43 /* Pods-BoredApi-BoredApiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -584,6 +789,7 @@
 		};
 		67D0941C285D2D7700F54031 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A345A54A6A737AB7969D7B6 /* Pods-BoredApi-BoredApiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
