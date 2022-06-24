@@ -14,8 +14,6 @@
 		677D9F9C2863947500F3FE8E /* ActivitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D9F9A2863947500F3FE8E /* ActivitiesTableViewCell.swift */; };
 		677D9F9D2863947500F3FE8E /* ActivitiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 677D9F9B2863947500F3FE8E /* ActivitiesTableViewCell.xib */; };
 		67C5325A2865C73A00ADCF3F /* suggestions.json in Resources */ = {isa = PBXBuildFile; fileRef = 67C532592865C73A00ADCF3F /* suggestions.json */; };
-		67C532632865D34500ADCF3F /* SuggestionScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C532612865D34500ADCF3F /* SuggestionScreenTableViewCell.swift */; };
-		67C532642865D34500ADCF3F /* SuggestionScreenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67C532622865D34500ADCF3F /* SuggestionScreenTableViewCell.xib */; };
 		67D093EE285D2D7500F54031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D093ED285D2D7500F54031 /* AppDelegate.swift */; };
 		67D093F0285D2D7500F54031 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D093EF285D2D7500F54031 /* SceneDelegate.swift */; };
 		67D093F7285D2D7700F54031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D093F6285D2D7700F54031 /* Assets.xcassets */; };
@@ -32,7 +30,6 @@
 		67D69F812864FDDE00C1D4F9 /* SuggestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D69F7F2864FDDE00C1D4F9 /* SuggestionViewController.xib */; };
 		67D69F8A286554B000C1D4F9 /* SuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D69F88286554B000C1D4F9 /* SuggestionTableViewCell.swift */; };
 		67D69F8B286554B000C1D4F9 /* SuggestionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D69F89286554B000C1D4F9 /* SuggestionTableViewCell.xib */; };
-		67D69F8D2865608E00C1D4F9 /* SuggestionsActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D69F8C2865608E00C1D4F9 /* SuggestionsActivities.swift */; };
 		796C1BC261C3DC5E3129CC33 /* Pods_BoredApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7E24A346838268A90240F1 /* Pods_BoredApi.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,8 +61,6 @@
 		677D9F9A2863947500F3FE8E /* ActivitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewCell.swift; sourceTree = "<group>"; };
 		677D9F9B2863947500F3FE8E /* ActivitiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivitiesTableViewCell.xib; sourceTree = "<group>"; };
 		67C532592865C73A00ADCF3F /* suggestions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = suggestions.json; sourceTree = "<group>"; };
-		67C532612865D34500ADCF3F /* SuggestionScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionScreenTableViewCell.swift; sourceTree = "<group>"; };
-		67C532622865D34500ADCF3F /* SuggestionScreenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionScreenTableViewCell.xib; sourceTree = "<group>"; };
 		67D093EA285D2D7500F54031 /* BoredApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoredApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D093ED285D2D7500F54031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67D093EF285D2D7500F54031 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,7 +81,6 @@
 		67D69F7F2864FDDE00C1D4F9 /* SuggestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionViewController.xib; sourceTree = "<group>"; };
 		67D69F88286554B000C1D4F9 /* SuggestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionTableViewCell.swift; sourceTree = "<group>"; };
 		67D69F89286554B000C1D4F9 /* SuggestionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionTableViewCell.xib; sourceTree = "<group>"; };
-		67D69F8C2865608E00C1D4F9 /* SuggestionsActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsActivities.swift; sourceTree = "<group>"; };
 		73B4DC1B34914756E494C455 /* Pods-BoredApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredApi.release.xcconfig"; path = "Target Support Files/Pods-BoredApi/Pods-BoredApi.release.xcconfig"; sourceTree = "<group>"; };
 		8713262AE17077AE231E52AF /* Pods-BoredApiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredApiTests.debug.xcconfig"; path = "Target Support Files/Pods-BoredApiTests/Pods-BoredApiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC6B3A2F0BF4BF720E4B8ECB /* Pods_BoredApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoredApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,8 +120,6 @@
 			children = (
 				67D0943F2860EF8900F54031 /* TermsViewController.swift */,
 				67D094402860EF8900F54031 /* TermsViewController.xib */,
-				67C532612865D34500ADCF3F /* SuggestionScreenTableViewCell.swift */,
-				67C532622865D34500ADCF3F /* SuggestionScreenTableViewCell.xib */,
 			);
 			path = TermsAndConditions;
 			sourceTree = "<group>";
@@ -136,12 +128,10 @@
 			isa = PBXGroup;
 			children = (
 				67C532582865C6CA00ADCF3F /* Model */,
-				67D69F6A2864988C00C1D4F9 /* Activities.swift */,
 				677D9F9228627D0600F3FE8E /* ActivitiesViewController.swift */,
 				677D9F9328627D0600F3FE8E /* ActivitiesViewController.xib */,
 				677D9F9A2863947500F3FE8E /* ActivitiesTableViewCell.swift */,
 				677D9F9B2863947500F3FE8E /* ActivitiesTableViewCell.xib */,
-				67D69F8C2865608E00C1D4F9 /* SuggestionsActivities.swift */,
 			);
 			path = Activities;
 			sourceTree = "<group>";
@@ -158,6 +148,7 @@
 		67C532582865C6CA00ADCF3F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				67D69F6A2864988C00C1D4F9 /* Activities.swift */,
 				67C532592865C73A00ADCF3F /* suggestions.json */,
 			);
 			path = Model;
@@ -370,7 +361,6 @@
 				67D094422860EF8900F54031 /* TermsViewController.xib in Resources */,
 				67D69F8B286554B000C1D4F9 /* SuggestionTableViewCell.xib in Resources */,
 				67D09432285E50F800F54031 /* HomeViewController.xib in Resources */,
-				67C532642865D34500ADCF3F /* SuggestionScreenTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,8 +488,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67D69F8D2865608E00C1D4F9 /* SuggestionsActivities.swift in Sources */,
-				67C532632865D34500ADCF3F /* SuggestionScreenTableViewCell.swift in Sources */,
 				67D093EE285D2D7500F54031 /* AppDelegate.swift in Sources */,
 				67D093F0285D2D7500F54031 /* SceneDelegate.swift in Sources */,
 				67D69F802864FDDE00C1D4F9 /* SuggestionViewController.swift in Sources */,

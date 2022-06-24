@@ -10,6 +10,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivitiesViewController" customModule="BoredApi" customModuleProvider="target">
             <connections>
                 <outlet property="buttonTest" destination="sag-0T-lnY" id="UGo-mT-Kez"/>
+                <outlet property="closeButton" destination="dpQ-rt-vl1" id="Cuh-tb-oac"/>
                 <outlet property="navigationBar" destination="xTy-0w-6Vg" id="qVY-oB-2aK"/>
                 <outlet property="tableViewCell" destination="W8K-wQ-uxU" id="j13-PU-aUZ"/>
                 <outlet property="view" destination="a3k-oi-Jik" id="TQx-A3-z6Q"/>
