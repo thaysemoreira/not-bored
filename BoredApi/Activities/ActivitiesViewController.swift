@@ -12,6 +12,7 @@ class ActivitiesViewController: UIViewController, UITableViewDelegate, UITableVi
     @IBOutlet weak var navigationBar: UINavigationBar!
     @IBOutlet weak var tableViewCell: UITableView!
     @IBOutlet weak var buttonTest: UIButton!
+    @IBOutlet weak var closeButton: UIBarButtonItem!
     
     var activities = ["Education", "Recreational", "Social", "Diy", "Charity", "Cooking", "Music", "Busywork"]
     
@@ -65,11 +66,16 @@ class ActivitiesViewController: UIViewController, UITableViewDelegate, UITableVi
         present(suggestion, animated: true)
         
     }
+    
+    @IBAction func goBack(_ sender: UIButton) {
+        dismiss(animated: true)
+    }
 
 }
 extension ActivitiesViewController: TableViewNew {
     func onClickCell(index: Int) {
-        print("\(index) is Clicked")
+        print("\(activities[index]) is Clicked")
+
     }
 }
 

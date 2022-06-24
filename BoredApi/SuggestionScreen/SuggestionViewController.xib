@@ -20,11 +20,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="k0y-7e-S42">
-                    <rect key="frame" x="0.0" y="302" width="414" height="541"/>
+                    <rect key="frame" x="0.0" y="246" width="414" height="616"/>
                     <color key="backgroundColor" red="0.85593527560000005" green="0.95612746479999999" blue="0.99608534569999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                 </tableView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqA-Jm-oJu">
-                    <rect key="frame" x="186" y="173" width="42" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Atividade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqA-Jm-oJu">
+                    <rect key="frame" x="128" y="151" width="173" height="73"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -33,13 +33,13 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.85593527560000005" green="0.95612746479999999" blue="0.99608534569999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kqA-Jm-oJu" secondAttribute="trailing" constant="186" id="05R-ta-XTn"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kqA-Jm-oJu" secondAttribute="trailing" constant="113" id="05R-ta-XTn"/>
                 <constraint firstItem="k0y-7e-S42" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5lb-hJ-G5Y"/>
-                <constraint firstItem="kqA-Jm-oJu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="186" id="LCH-7Y-uhA"/>
-                <constraint firstItem="k0y-7e-S42" firstAttribute="top" secondItem="kqA-Jm-oJu" secondAttribute="bottom" constant="108" id="NF1-1b-EiR"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="k0y-7e-S42" secondAttribute="bottom" constant="19" id="ObI-WS-0Xu"/>
-                <constraint firstItem="k0y-7e-S42" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="258" id="YWf-tn-8O8"/>
-                <constraint firstItem="kqA-Jm-oJu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="129" id="fhg-0J-8IY"/>
+                <constraint firstItem="kqA-Jm-oJu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="128" id="LCH-7Y-uhA"/>
+                <constraint firstItem="k0y-7e-S42" firstAttribute="top" secondItem="kqA-Jm-oJu" secondAttribute="bottom" constant="22" id="NF1-1b-EiR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="k0y-7e-S42" secondAttribute="bottom" id="ObI-WS-0Xu"/>
+                <constraint firstItem="k0y-7e-S42" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="202" id="YWf-tn-8O8"/>
+                <constraint firstItem="kqA-Jm-oJu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="107" id="fhg-0J-8IY"/>
                 <constraint firstItem="k0y-7e-S42" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="x5G-tv-AO4"/>
             </constraints>
             <point key="canvasLocation" x="-446.37681159420293" y="-58.258928571428569"/>

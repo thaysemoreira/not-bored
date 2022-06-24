@@ -19,4 +19,23 @@
         "price":0.2,
         "link":"",
         "key":"8394738",
-        "accessibility":0.3}]
+        "accessibility":0.3
+    },
+    {"activity":"Practice coding in your favorite lanaguage",
+            "type":"recreational",
+            "participants":1,
+            "price":0,
+            "link":"",
+            "key":"7096020",
+            "accessibility":0.1}
+    },
+    {"activity":"Buy a new house decoration",
+        "type":"recreational",
+        "participants":1,
+        "price":0.4,
+        "link":"",
+        "key":"3456114",
+        "accessibility":0.3
+        
+    }
+]
