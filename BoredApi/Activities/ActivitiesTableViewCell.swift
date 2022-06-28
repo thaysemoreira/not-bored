@@ -14,18 +14,10 @@ protocol TableViewNew {
 class ActivitiesTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var nextButton: UIButton!
-    
-    var cellDelegate: TableViewNew?
-    var index: IndexPath?
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-    }
-    @IBAction func goToSuggestions(_ sender: UIButton) {
-        cellDelegate?.onClickCell(index: (index?.row)!)
-        
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -2,14 +2,15 @@
 //  SuggestionTableViewCell.swift
 //  BoredApi
 //
-//  Created by Thayse Bianca Amaral De Carvalho Moreira on 23/06/22.
+//  Created by Thayse Bianca Amaral De Carvalho Moreira on 26/06/22.
 //
 
 import UIKit
 
 class SuggestionTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var participantsLabel: UILabel!
+    @IBOutlet weak var participantsLabel: UILabel?
+    @IBOutlet weak var priceLabel: UILabel?
     
     override func awakeFromNib() {
         super.awakeFromNib()

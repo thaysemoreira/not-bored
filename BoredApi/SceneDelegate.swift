@@ -24,36 +24,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         window?.frame = UIScreen.main.bounds
-        window?.rootViewController = HomeViewController()
+        let mainView = HomeViewController(nibName: "HomeViewController", bundle: nil)
+        let navigationControll = UINavigationController(rootViewController: mainView)
+        self.window?.rootViewController = navigationControll
         window?.makeKeyAndVisible()
-        
-         AF.request("http://www.boredapi.com/api/activity?minaccessibility=0&maxaccessibility=0.1")
-              .responseDecodable(of: Activities.self) { data in
-                  switch data.result {
-                  case .success(let activitiesResponse):
-                      print(activitiesResponse)
-                  case .failure(let error):
-                      print(error)
-                  }
-          }
-          
-        
-/*        let url = URL(string: "http://www.boredapi.com/api/activity?minaccessibility=0&maxaccessibility=0.1")!
-        let request = URLRequest(url: url)
-        let task = URLSession.shared.dataTask(with: request) { data, response, error in
-            print(data)
-            print(response)
-            print(error)
-            print(String(data: data!, encoding: .utf8))
-            
-            do{
-                let response = try JSONDecoder().decode(ActivityResponse.self, from: data!)
-                print(response)
-            } catch {
-                print(error)
-            }
-        }
-        task.resume()*/
     }
     
     func sceneDidDisconnect(_ scene: UIScene) {

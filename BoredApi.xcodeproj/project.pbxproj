@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		01D0F26CC625CF5DAA419202 /* Pods_BoredApi_BoredApiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B35AEEE0A8F3DEC128F3A26 /* Pods_BoredApi_BoredApiUITests.framework */; };
 		11E46C07695CD70DC45BB1EE /* Pods_BoredApiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6B3A2F0BF4BF720E4B8ECB /* Pods_BoredApiTests.framework */; };
+		6774D5CF286B21E000A36E50 /* RandomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6774D5CD286B21E000A36E50 /* RandomTableViewCell.swift */; };
+		6774D5D0286B21E000A36E50 /* RandomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6774D5CE286B21E000A36E50 /* RandomTableViewCell.xib */; };
+		6774D5D7286B36F400A36E50 /* SuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6774D5D5286B36F400A36E50 /* SuggestionViewController.swift */; };
+		6774D5D8286B36F400A36E50 /* SuggestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6774D5D6286B36F400A36E50 /* SuggestionViewController.xib */; };
 		677D9F9428627D0600F3FE8E /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D9F9228627D0600F3FE8E /* ActivitiesViewController.swift */; };
 		677D9F9528627D0600F3FE8E /* ActivitiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 677D9F9328627D0600F3FE8E /* ActivitiesViewController.xib */; };
 		677D9F9C2863947500F3FE8E /* ActivitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D9F9A2863947500F3FE8E /* ActivitiesTableViewCell.swift */; };
 		677D9F9D2863947500F3FE8E /* ActivitiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 677D9F9B2863947500F3FE8E /* ActivitiesTableViewCell.xib */; };
-		67C5325A2865C73A00ADCF3F /* suggestions.json in Resources */ = {isa = PBXBuildFile; fileRef = 67C532592865C73A00ADCF3F /* suggestions.json */; };
+		677E94BC286657A7004D9657 /* ServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677E94BB286657A7004D9657 /* ServiceApi.swift */; };
+		677E94C72869098B004D9657 /* SuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677E94C52869098B004D9657 /* SuggestionTableViewCell.swift */; };
+		677E94C82869098B004D9657 /* SuggestionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 677E94C62869098B004D9657 /* SuggestionTableViewCell.xib */; };
 		67D093EE285D2D7500F54031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D093ED285D2D7500F54031 /* AppDelegate.swift */; };
 		67D093F0285D2D7500F54031 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D093EF285D2D7500F54031 /* SceneDelegate.swift */; };
 		67D093F7285D2D7700F54031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D093F6285D2D7700F54031 /* Assets.xcassets */; };
@@ -26,10 +32,8 @@
 		67D094412860EF8900F54031 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D0943F2860EF8900F54031 /* TermsViewController.swift */; };
 		67D094422860EF8900F54031 /* TermsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D094402860EF8900F54031 /* TermsViewController.xib */; };
 		67D69F6B2864988C00C1D4F9 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D69F6A2864988C00C1D4F9 /* Activities.swift */; };
-		67D69F802864FDDE00C1D4F9 /* SuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D69F7E2864FDDE00C1D4F9 /* SuggestionViewController.swift */; };
-		67D69F812864FDDE00C1D4F9 /* SuggestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D69F7F2864FDDE00C1D4F9 /* SuggestionViewController.xib */; };
-		67D69F8A286554B000C1D4F9 /* SuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D69F88286554B000C1D4F9 /* SuggestionTableViewCell.swift */; };
-		67D69F8B286554B000C1D4F9 /* SuggestionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D69F89286554B000C1D4F9 /* SuggestionTableViewCell.xib */; };
+		67D69F802864FDDE00C1D4F9 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D69F7E2864FDDE00C1D4F9 /* RandomViewController.swift */; };
+		67D69F812864FDDE00C1D4F9 /* RandomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D69F7F2864FDDE00C1D4F9 /* RandomViewController.xib */; };
 		796C1BC261C3DC5E3129CC33 /* Pods_BoredApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7E24A346838268A90240F1 /* Pods_BoredApi.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,11 +60,17 @@
 		15D58603653335DA6E548F43 /* Pods-BoredApi-BoredApiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredApi-BoredApiUITests.debug.xcconfig"; path = "Target Support Files/Pods-BoredApi-BoredApiUITests/Pods-BoredApi-BoredApiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1A7E24A346838268A90240F1 /* Pods_BoredApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoredApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E8B1EA0EEE17BD52EC1FDAD /* Pods-BoredApiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredApiTests.release.xcconfig"; path = "Target Support Files/Pods-BoredApiTests/Pods-BoredApiTests.release.xcconfig"; sourceTree = "<group>"; };
+		6774D5CD286B21E000A36E50 /* RandomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTableViewCell.swift; sourceTree = "<group>"; };
+		6774D5CE286B21E000A36E50 /* RandomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RandomTableViewCell.xib; sourceTree = "<group>"; };
+		6774D5D5286B36F400A36E50 /* SuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionViewController.swift; sourceTree = "<group>"; };
+		6774D5D6286B36F400A36E50 /* SuggestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionViewController.xib; sourceTree = "<group>"; };
 		677D9F9228627D0600F3FE8E /* ActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
 		677D9F9328627D0600F3FE8E /* ActivitiesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivitiesViewController.xib; sourceTree = "<group>"; };
 		677D9F9A2863947500F3FE8E /* ActivitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewCell.swift; sourceTree = "<group>"; };
 		677D9F9B2863947500F3FE8E /* ActivitiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivitiesTableViewCell.xib; sourceTree = "<group>"; };
-		67C532592865C73A00ADCF3F /* suggestions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = suggestions.json; sourceTree = "<group>"; };
+		677E94BB286657A7004D9657 /* ServiceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceApi.swift; sourceTree = "<group>"; };
+		677E94C52869098B004D9657 /* SuggestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionTableViewCell.swift; sourceTree = "<group>"; };
+		677E94C62869098B004D9657 /* SuggestionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionTableViewCell.xib; sourceTree = "<group>"; };
 		67D093EA285D2D7500F54031 /* BoredApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoredApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D093ED285D2D7500F54031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67D093EF285D2D7500F54031 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,10 +87,8 @@
 		67D0943F2860EF8900F54031 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		67D094402860EF8900F54031 /* TermsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TermsViewController.xib; sourceTree = "<group>"; };
 		67D69F6A2864988C00C1D4F9 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
-		67D69F7E2864FDDE00C1D4F9 /* SuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionViewController.swift; sourceTree = "<group>"; };
-		67D69F7F2864FDDE00C1D4F9 /* SuggestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionViewController.xib; sourceTree = "<group>"; };
-		67D69F88286554B000C1D4F9 /* SuggestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionTableViewCell.swift; sourceTree = "<group>"; };
-		67D69F89286554B000C1D4F9 /* SuggestionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionTableViewCell.xib; sourceTree = "<group>"; };
+		67D69F7E2864FDDE00C1D4F9 /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		67D69F7F2864FDDE00C1D4F9 /* RandomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RandomViewController.xib; sourceTree = "<group>"; };
 		73B4DC1B34914756E494C455 /* Pods-BoredApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredApi.release.xcconfig"; path = "Target Support Files/Pods-BoredApi/Pods-BoredApi.release.xcconfig"; sourceTree = "<group>"; };
 		8713262AE17077AE231E52AF /* Pods-BoredApiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredApiTests.debug.xcconfig"; path = "Target Support Files/Pods-BoredApiTests/Pods-BoredApiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC6B3A2F0BF4BF720E4B8ECB /* Pods_BoredApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoredApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,7 +135,6 @@
 		677D9F8B28625FC900F3FE8E /* Activities */ = {
 			isa = PBXGroup;
 			children = (
-				67C532582865C6CA00ADCF3F /* Model */,
 				677D9F9228627D0600F3FE8E /* ActivitiesViewController.swift */,
 				677D9F9328627D0600F3FE8E /* ActivitiesViewController.xib */,
 				677D9F9A2863947500F3FE8E /* ActivitiesTableViewCell.swift */,
@@ -145,11 +152,22 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		677E94D32869EFE5004D9657 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				67D69F7E2864FDDE00C1D4F9 /* RandomViewController.swift */,
+				67D69F7F2864FDDE00C1D4F9 /* RandomViewController.xib */,
+				6774D5CD286B21E000A36E50 /* RandomTableViewCell.swift */,
+				6774D5CE286B21E000A36E50 /* RandomTableViewCell.xib */,
+			);
+			path = Random;
+			sourceTree = "<group>";
+		};
 		67C532582865C6CA00ADCF3F /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				67D69F6A2864988C00C1D4F9 /* Activities.swift */,
-				67C532592865C73A00ADCF3F /* suggestions.json */,
+				677E94BB286657A7004D9657 /* ServiceApi.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,8 +199,10 @@
 			children = (
 				677D9F8D2862600700F3FE8E /* Home */,
 				677D9F8B28625FC900F3FE8E /* Activities */,
+				677E94D32869EFE5004D9657 /* Random */,
 				67D69F652863E05E00C1D4F9 /* SuggestionScreen */,
 				677D9F8A28625FAF00F3FE8E /* TermsAndConditions */,
+				67C532582865C6CA00ADCF3F /* Model */,
 				67D093ED285D2D7500F54031 /* AppDelegate.swift */,
 				67D093EF285D2D7500F54031 /* SceneDelegate.swift */,
 				67D093F6285D2D7700F54031 /* Assets.xcassets */,
@@ -212,10 +232,10 @@
 		67D69F652863E05E00C1D4F9 /* SuggestionScreen */ = {
 			isa = PBXGroup;
 			children = (
-				67D69F7E2864FDDE00C1D4F9 /* SuggestionViewController.swift */,
-				67D69F7F2864FDDE00C1D4F9 /* SuggestionViewController.xib */,
-				67D69F88286554B000C1D4F9 /* SuggestionTableViewCell.swift */,
-				67D69F89286554B000C1D4F9 /* SuggestionTableViewCell.xib */,
+				6774D5D5286B36F400A36E50 /* SuggestionViewController.swift */,
+				6774D5D6286B36F400A36E50 /* SuggestionViewController.xib */,
+				677E94C52869098B004D9657 /* SuggestionTableViewCell.swift */,
+				677E94C62869098B004D9657 /* SuggestionTableViewCell.xib */,
 			);
 			path = SuggestionScreen;
 			sourceTree = "<group>";
@@ -352,14 +372,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6774D5D0286B21E000A36E50 /* RandomTableViewCell.xib in Resources */,
 				677D9F9D2863947500F3FE8E /* ActivitiesTableViewCell.xib in Resources */,
 				677D9F9528627D0600F3FE8E /* ActivitiesViewController.xib in Resources */,
 				67D093FA285D2D7700F54031 /* LaunchScreen.storyboard in Resources */,
 				67D093F7285D2D7700F54031 /* Assets.xcassets in Resources */,
-				67D69F812864FDDE00C1D4F9 /* SuggestionViewController.xib in Resources */,
-				67C5325A2865C73A00ADCF3F /* suggestions.json in Resources */,
+				67D69F812864FDDE00C1D4F9 /* RandomViewController.xib in Resources */,
+				6774D5D8286B36F400A36E50 /* SuggestionViewController.xib in Resources */,
+				677E94C82869098B004D9657 /* SuggestionTableViewCell.xib in Resources */,
 				67D094422860EF8900F54031 /* TermsViewController.xib in Resources */,
-				67D69F8B286554B000C1D4F9 /* SuggestionTableViewCell.xib in Resources */,
 				67D09432285E50F800F54031 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,11 +511,14 @@
 			files = (
 				67D093EE285D2D7500F54031 /* AppDelegate.swift in Sources */,
 				67D093F0285D2D7500F54031 /* SceneDelegate.swift in Sources */,
-				67D69F802864FDDE00C1D4F9 /* SuggestionViewController.swift in Sources */,
+				6774D5D7286B36F400A36E50 /* SuggestionViewController.swift in Sources */,
+				67D69F802864FDDE00C1D4F9 /* RandomViewController.swift in Sources */,
 				677D9F9428627D0600F3FE8E /* ActivitiesViewController.swift in Sources */,
+				677E94BC286657A7004D9657 /* ServiceApi.swift in Sources */,
+				677E94C72869098B004D9657 /* SuggestionTableViewCell.swift in Sources */,
+				6774D5CF286B21E000A36E50 /* RandomTableViewCell.swift in Sources */,
 				67D094412860EF8900F54031 /* TermsViewController.swift in Sources */,
 				67D69F6B2864988C00C1D4F9 /* Activities.swift in Sources */,
-				67D69F8A286554B000C1D4F9 /* SuggestionTableViewCell.swift in Sources */,
 				677D9F9C2863947500F3FE8E /* ActivitiesTableViewCell.swift in Sources */,
 				67D09431285E50F800F54031 /* HomeViewController.swift in Sources */,
 			);

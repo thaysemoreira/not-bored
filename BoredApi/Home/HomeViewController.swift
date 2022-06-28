@@ -17,6 +17,8 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationItem.hidesBackButton = true
+        
     }
     
     @IBAction func startButtonOnClick(_ sender: UIButton) {
@@ -28,7 +30,7 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
         // botão ficará ativo só quando dados forem validados
         startButton.isEnabled = false
         
-        guard let textFieldParticipants = textParticipants.text else {
+        guard let textFieldParticipants = textParticipants.text, textFieldParticipants != "" else {
             return
         }
         // certifica que textField será númerico maior que zero
@@ -43,20 +45,15 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
     // MARK: Abre tela de termos
     @IBAction func termsOnClick(_ sender: UIButton) {
         let termsViewController = TermsViewController(nibName: "TermsViewController", bundle: nil)
-        
         present(termsViewController, animated: true)
         
     }
     
     // MARK: Direciona para a ActivitiesViewController
     @IBAction func startsActivities(_ sender: UIButton) {
-        guard let textField = textParticipants.text, textField != "" else {
-            return startButton.isEnabled = false
-        }
-        
-        let activities = ActivitiesViewController()
-        activities.modalPresentationStyle = .fullScreen
-        show(activities, sender: startButton)
+        let activitiesViewController = ActivitiesViewController(nibName: "ActivitiesViewController", bundle: nil)
+        activitiesViewController.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(activitiesViewController, animated: true)
         
     }
 }
