@@ -23,7 +23,6 @@ class ServiceApi {
     private static let configuration: URLSessionConfiguration = {
         let config = URLSessionConfiguration.default
         config.httpAdditionalHeaders = ["Content-Type": "application/json"]
-        config.timeoutIntervalForRequest = 30.0
         config.httpMaximumConnectionsPerHost = 6
         return config
     }()

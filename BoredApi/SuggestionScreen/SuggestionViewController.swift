@@ -35,8 +35,6 @@ class SuggestionViewController: UIViewController, UITableViewDelegate, UITableVi
                 
                 self.activities = [activities]
                 
-                print(self.activities)
-                
                 DispatchQueue.main.async {
                     self.tableViewCell.reloadData()
                 }
@@ -94,7 +92,6 @@ class SuggestionViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     @IBAction private func tryAgain(_ sender: UIButton) {
-        
+        viewWillAppear(true)
     }
-    
 }

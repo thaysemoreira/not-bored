@@ -22,15 +22,16 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZw-6B-HMg">
+                <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZw-6B-HMg">
                     <rect key="frame" x="0.0" y="158" width="414" height="144"/>
                     <color key="backgroundColor" red="0.85593527560000005" green="0.95612746479999999" blue="0.99608534569999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="144" id="rfF-43-WyK"/>
                     </constraints>
                     <attributedString key="attributedText">
-                        <fragment content="Label">
+                        <fragment content=".">
                             <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                 <font key="NSFont" size="16" name="AmericanTypewriter-Semibold"/>
                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                             </attributes>
@@ -60,7 +61,6 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSV-72-JHa">
                     <rect key="frame" x="46" y="824" width="330" height="38"/>
                     <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
-                    <color key="tintColor" systemColor="systemGray2Color"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="filled">
                         <attributedString key="attributedTitle">
@@ -122,9 +122,6 @@
     <resources>
         <systemColor name="quaternaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.17999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

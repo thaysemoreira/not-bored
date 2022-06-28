@@ -73,8 +73,8 @@ class RandomViewController: UIViewController, UITableViewDelegate, UITableViewDa
         self.navigationController?.pushViewController(activtiesView, animated: true)
     }
     
-    @IBAction func tryAnother(_ sender: UIButton) {
-        sender.reloadInputViews()
+    @IBAction func tryAnother(_ sender: Any) {
+        viewWillAppear(true)
     }
-    
+
 }

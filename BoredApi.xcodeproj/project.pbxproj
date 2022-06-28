@@ -123,6 +123,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6774D5D9286B819100A36E50 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				677E94BB286657A7004D9657 /* ServiceApi.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		677D9F8A28625FAF00F3FE8E /* TermsAndConditions */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				67D69F6A2864988C00C1D4F9 /* Activities.swift */,
-				677E94BB286657A7004D9657 /* ServiceApi.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -202,6 +209,7 @@
 				677E94D32869EFE5004D9657 /* Random */,
 				67D69F652863E05E00C1D4F9 /* SuggestionScreen */,
 				677D9F8A28625FAF00F3FE8E /* TermsAndConditions */,
+				6774D5D9286B819100A36E50 /* Service */,
 				67C532582865C6CA00ADCF3F /* Model */,
 				67D093ED285D2D7500F54031 /* AppDelegate.swift */,
 				67D093EF285D2D7500F54031 /* SceneDelegate.swift */,
